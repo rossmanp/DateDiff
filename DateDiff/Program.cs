@@ -16,6 +16,7 @@ namespace DateDiff
             while (isUserWrong)
 
             {
+                Console.WriteLine("This program calculates the difference in time between two dates.");
                 Console.WriteLine("Enter the earlier of the two dates in MM/DD/YYYY format:");
                 string date1 = Console.ReadLine();
                 Console.WriteLine("Enter the later of the two dates in MM/DD/YYYY format:");
@@ -75,6 +76,7 @@ namespace DateDiff
             Console.WriteLine("The Year difference is: {0}", yearDiff);
             Console.WriteLine("The Month difference is: {0}", monthDiff);
             Console.WriteLine("The Day difference is: {0}", dayDiff);
+            Console.WriteLine("Press Enter to exit the program.");
             Console.ReadLine();
         }
     }
