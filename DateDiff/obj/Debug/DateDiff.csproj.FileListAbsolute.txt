@@ -1,0 +1,6 @@
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\DateDiff\DateDiff\bin\Debug\DateDiff.exe.config
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\DateDiff\DateDiff\bin\Debug\DateDiff.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\DateDiff\DateDiff\bin\Debug\DateDiff.pdb
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\DateDiff\DateDiff\obj\Debug\DateDiff.csprojResolveAssemblyReference.cache
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\DateDiff\DateDiff\obj\Debug\DateDiff.exe
+c:\users\peter\onedrive\documents\visual studio 2015\Projects\DateDiff\DateDiff\obj\Debug\DateDiff.pdb
