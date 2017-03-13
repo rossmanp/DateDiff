@@ -10,14 +10,29 @@ namespace DateDiff
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the earlier of the two dates in MM/DD/YYYY format:");
-            string date1 = Console.ReadLine();
-            Console.WriteLine("Enter the later of the two dates in MM/DD/YYYY format:");
-            string date2 = Console.ReadLine();
-            DateTime dt1;
-            DateTime dt2;
-            DateTime.TryParse(date1, out dt1);
-            DateTime.TryParse(date2, out dt2);
+            bool isUserWrong = true;
+            DateTime dt1 = DateTime.Now;
+            DateTime dt2 = DateTime.Now;
+            while (isUserWrong)
+
+            {
+                Console.WriteLine("Enter the earlier of the two dates in MM/DD/YYYY format:");
+                string date1 = Console.ReadLine();
+                Console.WriteLine("Enter the later of the two dates in MM/DD/YYYY format:");
+                string date2 = Console.ReadLine();
+                DateTime.TryParse(date1, out dt1);
+                DateTime.TryParse(date2, out dt2);
+                if (dt1 < dt2)
+                {
+                    isUserWrong = false;
+                }
+                else
+                {
+                    Console.WriteLine("Whoops, your first date was later than your second date!");
+                    Console.WriteLine("Please try again.");
+                }
+            }
+            
             int month1 = dt1.Month;
             int month2 = dt2.Month;
             int year1 = dt1.Year;
